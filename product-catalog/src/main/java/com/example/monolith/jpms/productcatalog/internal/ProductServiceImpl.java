@@ -15,7 +15,4 @@ public class ProductServiceImpl implements ProductService {
 		);
 	}
 
-	public static ProductService create() {
-		return new ProductServiceImpl();
-	}
 }

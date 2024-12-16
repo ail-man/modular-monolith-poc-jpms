@@ -27,7 +27,4 @@ public class OrderServiceImpl implements OrderService {
 		}
 	}
 
-	public static OrderService create(UserService userService, ProductService productService) {
-		return new OrderServiceImpl(userService, productService);
-	}
 }

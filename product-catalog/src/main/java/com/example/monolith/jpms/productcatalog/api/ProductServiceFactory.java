@@ -2,9 +2,9 @@ package com.example.monolith.jpms.productcatalog.api;
 
 import com.example.monolith.jpms.productcatalog.internal.ProductServiceImpl;
 
-public final class ProductServiceBootstrap {
+public final class ProductServiceFactory {
 
-	private ProductServiceBootstrap() {
+	private ProductServiceFactory() {
 	}
 
 	// Factory method for internal usage
