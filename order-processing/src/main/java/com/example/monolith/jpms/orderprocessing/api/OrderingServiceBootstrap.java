@@ -1,8 +1,8 @@
-package com.example.orderprocessing.api;
+package com.example.monolith.jpms.orderprocessing.api;
 
-import com.example.orderprocessing.internal.OrderServiceImpl;
-import com.example.productcatalog.api.ProductService;
-import com.example.usermanagement.api.UserService;
+import com.example.monolith.jpms.orderprocessing.internal.OrderServiceImpl;
+import com.example.monolith.jpms.productcatalog.api.ProductService;
+import com.example.monolith.jpms.usermanagement.api.UserService;
 
 public final class OrderingServiceBootstrap {
 

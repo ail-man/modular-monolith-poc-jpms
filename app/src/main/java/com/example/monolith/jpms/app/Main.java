@@ -1,9 +1,9 @@
-package com.example.app;
+package com.example.monolith.jpms.app;
 
-import com.example.orderprocessing.api.Order;
-import com.example.orderprocessing.api.OrderingServiceBootstrap;
-import com.example.productcatalog.api.ProductServiceBootstrap;
-import com.example.usermanagement.api.UserServiceBootstrap;
+import com.example.monolith.jpms.orderprocessing.api.Order;
+import com.example.monolith.jpms.orderprocessing.api.OrderingServiceBootstrap;
+import com.example.monolith.jpms.productcatalog.api.ProductServiceBootstrap;
+import com.example.monolith.jpms.usermanagement.api.UserServiceBootstrap;
 
 // Note: In a strict scenario, we should not access internal classes directly. 
 // However, for demonstration purposes, we'll do it here to wire things up.

@@ -1,4 +1,4 @@
-package com.example.productcatalog.api;
+package com.example.monolith.jpms.productcatalog.api;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-module com.example.usermanagement {
+module com.example.monolith.jpms.usermanagement {
 	requires static lombok;
-	exports com.example.usermanagement.api;
+	exports com.example.monolith.jpms.usermanagement.api;
 }

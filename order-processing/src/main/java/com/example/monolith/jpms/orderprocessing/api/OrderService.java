@@ -1,4 +1,4 @@
-package com.example.orderprocessing.api;
+package com.example.monolith.jpms.orderprocessing.api;
 
 public interface OrderService {
 

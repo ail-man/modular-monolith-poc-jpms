@@ -1,7 +1,7 @@
-package com.example.usermanagement.internal;
+package com.example.monolith.jpms.usermanagement.internal;
 
-import com.example.usermanagement.api.User;
-import com.example.usermanagement.api.UserService;
+import com.example.monolith.jpms.usermanagement.api.User;
+import com.example.monolith.jpms.usermanagement.api.UserService;
 
 // Not exported, so only accessible within this module.
 public class UserServiceImpl implements UserService {

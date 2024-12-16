@@ -1,9 +1,9 @@
-package com.example.orderprocessing.internal;
+package com.example.monolith.jpms.orderprocessing.internal;
 
-import com.example.orderprocessing.api.Order;
-import com.example.orderprocessing.api.OrderService;
-import com.example.productcatalog.api.ProductService;
-import com.example.usermanagement.api.UserService;
+import com.example.monolith.jpms.orderprocessing.api.Order;
+import com.example.monolith.jpms.orderprocessing.api.OrderService;
+import com.example.monolith.jpms.productcatalog.api.ProductService;
+import com.example.monolith.jpms.usermanagement.api.UserService;
 
 public class OrderServiceImpl implements OrderService {
 

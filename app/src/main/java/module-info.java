@@ -1,5 +1,5 @@
-module com.example.app {
-	requires com.example.usermanagement;
-	requires com.example.productcatalog;
-	requires com.example.orderprocessing;
+module com.example.monolith.jpms.app {
+	requires com.example.monolith.jpms.usermanagement;
+	requires com.example.monolith.jpms.productcatalog;
+	requires com.example.monolith.jpms.orderprocessing;
 }

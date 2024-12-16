@@ -1,9 +1,9 @@
-package com.example.productcatalog.internal;
+package com.example.monolith.jpms.productcatalog.internal;
 
 import java.util.List;
 
-import com.example.productcatalog.api.Product;
-import com.example.productcatalog.api.ProductService;
+import com.example.monolith.jpms.productcatalog.api.Product;
+import com.example.monolith.jpms.productcatalog.api.ProductService;
 
 public class ProductServiceImpl implements ProductService {
 

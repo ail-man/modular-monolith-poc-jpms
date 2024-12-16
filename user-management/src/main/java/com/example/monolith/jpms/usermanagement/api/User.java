@@ -1,4 +1,4 @@
-package com.example.usermanagement.api;
+package com.example.monolith.jpms.usermanagement.api;
 
 import lombok.Builder;
 
