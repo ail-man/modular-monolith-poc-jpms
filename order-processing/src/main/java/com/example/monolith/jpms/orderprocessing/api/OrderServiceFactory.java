@@ -9,7 +9,6 @@ public final class OrderServiceFactory {
 	private OrderServiceFactory() {
 	}
 
-	// Factory method for internal usage
 	public static OrderService create(final UserService userService, final ProductService productService) {
 		return new OrderServiceImpl(userService, productService);
 	}

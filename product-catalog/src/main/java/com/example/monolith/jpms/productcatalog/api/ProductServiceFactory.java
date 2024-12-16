@@ -7,7 +7,6 @@ public final class ProductServiceFactory {
 	private ProductServiceFactory() {
 	}
 
-	// Factory method for internal usage
 	public static ProductService create() {
 		return new ProductServiceImpl();
 	}
