@@ -1,6 +1,6 @@
-package com.example.productcatalog.api;
+package com.example.monolith.jpms.productcatalog.api;
 
-import com.example.productcatalog.internal.ProductServiceImpl;
+import com.example.monolith.jpms.productcatalog.internal.ProductServiceImpl;
 
 public final class ProductServiceBootstrap {
 

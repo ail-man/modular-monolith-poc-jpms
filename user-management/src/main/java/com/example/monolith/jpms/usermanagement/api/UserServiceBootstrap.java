@@ -1,6 +1,6 @@
-package com.example.usermanagement.api;
+package com.example.monolith.jpms.usermanagement.api;
 
-import com.example.usermanagement.internal.UserServiceImpl;
+import com.example.monolith.jpms.usermanagement.internal.UserServiceImpl;
 
 public final class UserServiceBootstrap {
 

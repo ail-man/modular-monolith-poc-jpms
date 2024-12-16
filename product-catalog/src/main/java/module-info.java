@@ -1,3 +1,3 @@
-module com.example.productcatalog {
-	exports com.example.productcatalog.api;
+module com.example.monolith.jpms.productcatalog {
+	exports com.example.monolith.jpms.productcatalog.api;
 }
