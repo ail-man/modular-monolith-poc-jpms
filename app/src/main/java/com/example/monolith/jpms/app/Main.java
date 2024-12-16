@@ -1,9 +1,9 @@
 package com.example.monolith.jpms.app;
 
 import com.example.monolith.jpms.orderprocessing.api.Order;
-import com.example.monolith.jpms.orderprocessing.api.OrderingServiceBootstrap;
-import com.example.monolith.jpms.productcatalog.api.ProductServiceBootstrap;
-import com.example.monolith.jpms.usermanagement.api.UserServiceBootstrap;
+import com.example.monolith.jpms.orderprocessing.api.OrderServiceFactory;
+import com.example.monolith.jpms.productcatalog.api.ProductServiceFactory;
+import com.example.monolith.jpms.usermanagement.api.UserServiceFactory;
 
 // Note: In a strict scenario, we should not access internal classes directly. 
 // However, for demonstration purposes, we'll do it here to wire things up.
@@ -16,9 +16,9 @@ import com.example.monolith.jpms.usermanagement.api.UserServiceBootstrap;
 public class Main {
 
 	public static void main(String[] args) {
-		var userService = UserServiceBootstrap.create();
-		var productService = ProductServiceBootstrap.create();
-		var orderService = OrderingServiceBootstrap.create(userService, productService);
+		var userService = UserServiceFactory.create();
+		var productService = ProductServiceFactory.create();
+		var orderService = OrderServiceFactory.create(userService, productService);
 
 		var order = new Order("o123", "u1", "p1");
 		orderService.processOrder(order);

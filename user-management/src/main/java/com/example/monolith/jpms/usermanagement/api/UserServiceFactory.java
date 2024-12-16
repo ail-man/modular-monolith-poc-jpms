@@ -2,9 +2,9 @@ package com.example.monolith.jpms.usermanagement.api;
 
 import com.example.monolith.jpms.usermanagement.internal.UserServiceImpl;
 
-public final class UserServiceBootstrap {
+public final class UserServiceFactory {
 
-	private UserServiceBootstrap() {
+	private UserServiceFactory() {
 	}
 
 	// Factory method for internal usage

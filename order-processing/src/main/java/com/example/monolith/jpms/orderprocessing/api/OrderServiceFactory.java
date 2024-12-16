@@ -4,9 +4,9 @@ import com.example.monolith.jpms.orderprocessing.internal.OrderServiceImpl;
 import com.example.monolith.jpms.productcatalog.api.ProductService;
 import com.example.monolith.jpms.usermanagement.api.UserService;
 
-public final class OrderingServiceBootstrap {
+public final class OrderServiceFactory {
 
-	private OrderingServiceBootstrap() {
+	private OrderServiceFactory() {
 	}
 
 	// Factory method for internal usage
